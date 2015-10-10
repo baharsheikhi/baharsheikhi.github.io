@@ -1,5 +1,5 @@
 p { 
-color: #11AD9B;
+color: #666666;
 background-color: #E6E6E6; 
 font-family: "Poiret One";
 font-size: 100;
@@ -13,5 +13,7 @@ letter-spacing: 3;
 .name {
 	font-size: 500%; 
 	color: red;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One';
+	color: #11AD9B;
+	
 }
