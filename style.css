@@ -11,8 +11,6 @@ letter-spacing: 3;
 
 }
 
-p{
-	color: #808080;
-	text-align: center; 
-
+#name{
+	font-size: 500; 
 }
