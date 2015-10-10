@@ -12,6 +12,6 @@ letter-spacing: 3;
 }
 
 .name{
-	font-size: 500; 
+	font-size: 500%; 
 	color: red;
 }
