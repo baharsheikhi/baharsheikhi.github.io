@@ -1,6 +1,5 @@
 p { 
 color: #666666;
-background-color: #E6E6E6; 
 font-family: 'Quicksand' sans-serif;
 font-size: 100;
 text-align: center; 
@@ -10,6 +9,12 @@ letter-spacing: 3;
 
 }
 
+body{
+	background-color: #E6E6E6;
+
+
+
+}
 .name {
 	font-size: 500%; 
 	color: red;
