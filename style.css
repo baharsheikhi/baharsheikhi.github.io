@@ -27,7 +27,7 @@ font-size: 100;
 
 
 
-.col-xs-12 col-md-6 {
+.col-md-offset-1 {
 	font-size: 500%; 
 	color: red;
 	font-family: 'Poiret One' cursive;
