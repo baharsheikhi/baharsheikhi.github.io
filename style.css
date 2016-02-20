@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Nixie+One|Julius+Sans+One|Fredericka+the+Great);
 
 .name {
-	font-size: 5.5em; 
+	font-size: 5.8em; 
 	color: #666666;
 	background-color: #E6E6E6;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Fredericka the Great', cursive;
 	text-align: center;
     color: #11AD9B;
 
@@ -15,15 +15,15 @@
 	padding-top: 2cm;
 	font-size: 1.4em; 
 	color: 050505;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Nixie One', cursive;
 	color: #11AD9B;
 
 }
 
 
 img {
- 	width: 220px;
- 	height: 225px;
+ 	width: 270px;
+ 	height: 275px;
 }
 
 .pic {
