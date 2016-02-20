@@ -7,18 +7,6 @@ text-align: center;
 }
 
 
-p { 
-color: #666666;
-background-color: #E6E6E6;
-font-family: 'Julius Sans One', sans-serif;
-font-size: 100;
-text-align: center; 
-opacity: 1;
-letter-spacing: 3; 
-
-
-}
-
 .navigation {
 font-family: 'Quicksand' sans-serif;
 text-align: center; 
@@ -30,7 +18,8 @@ font-size: 100;
 
 .col-md-offset {
 	font-size: 500%; 
-	color: red;
+	color: #666666;
+	background-color: #E6E6E6;
     font-family: 'Julius Sans One', sans-serif;
 	color: #11AD9B;
 
