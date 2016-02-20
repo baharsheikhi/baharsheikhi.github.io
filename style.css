@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Nixie+One|Julius+Sans+One|Fredericka+the+Great);
 
 .name {
-	font-size: 1000px; 
+	font-size: 5.5em; 
 	color: #666666;
 	background-color: #E6E6E6;
     font-family: 'Julius Sans One', sans-serif;
@@ -12,9 +12,10 @@
 }
 
 .description {
-	font-size: 1.3em; 
+	padding-top: 2cm;
+	font-size: 1.4em; 
 	color: 050505;
-	font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', cursive;
 	color: #11AD9B;
 
 }
