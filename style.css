@@ -7,13 +7,14 @@
 	background-color: #E6E6E6;
     font-family: 'Julius Sans One', sans-serif;
 	color: #11AD9B;
+	text-align: center;
 
 }
 
 .description {
 	font-size: 200%; 
 	color: #666666;
-	font-family: 'Julius Sans One' sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	color: #11AD9B;
 
 }
@@ -25,5 +26,6 @@ img {
 }
 
 .pic {
+	align-content: left;
 
 }
