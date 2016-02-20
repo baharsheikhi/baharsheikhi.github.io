@@ -16,7 +16,7 @@ font-size: 100;
 
 
 
-.col-md-offset {
+.name {
 	font-size: 500%; 
 	color: #666666;
 	background-color: #E6E6E6;
@@ -25,7 +25,7 @@ font-size: 100;
 
 }
 
-.col-md-offset2 {
+.description {
 	font-size: 200%; 
 	color: red;
 	font-family: 'Poiret One' cursive;
@@ -34,7 +34,7 @@ font-size: 100;
 }
 
 
-.pic {
+.picture {
  	width: 200px;
  	height: 200px;
 }
