@@ -1,21 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Nixie+One|Julius+Sans+One|Fredericka+the+Great);
 
-h1 {
-text-align: center;
-
-}
-
-
-.navigation {
-font-family: 'Quicksand' sans-serif;
-text-align: center; 
-font-size: 100;
-}
-
-
-
-
 .name {
 	font-size: 500%; 
 	color: #666666;
@@ -27,14 +12,14 @@ font-size: 100;
 
 .description {
 	font-size: 200%; 
-	color: red;
-	font-family: 'Poiret One' cursive;
+	color: #666666;
+	font-family: 'Julius Sans One' cursive;
 	color: #11AD9B;
 
 }
 
 
 .picture {
- 	width: 200px;
- 	height: 200px;
+ 	width: 100px;
+ 	height: 100px;
 }
