@@ -1,39 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Nixie+One|Julius+Sans+One|Fredericka+the+Great);
+.name {
+    font-size: 5.8em;
+    color: #666666;
+    background-color: #E6E6E6;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: #11AD9B;
+}
 
-    @import url(https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Nixie+One|Julius+Sans+One|Fredericka+the+Great);
+.description {
+    padding-top: 2cm;
+    font-size: 1.4em;
+    color: 050505;
+    font-family: 'Nixie One', cursive;
+    color: #11AD9B;
+}
 
-    .name {
-        font-size: 5.8em; 
-        color: #666666;
-        background-color: #E6E6E6;
-        font-family: 'Fredericka the Great', cursive;
-        text-align: center;
-        color: #11AD9B;
+img {
+    width: 270px;
+    height: 275px;
+}
 
-    }
+.pic {}
 
-    .description {
-        padding-top: 2cm;
-        font-size: 1.4em; 
-        color: 050505;
-        font-family: 'Nixie One', cursive;
-        color: #11AD9B;
-
-    }
-
-
-    img {
-        width: 270px;
-        height: 275px;
-    }
-
-    .pic {
-
-    }
-
-    footer {
+footer {
     background-color: #f2f2f2;
     padding: 25px;
-    }
+}
 
 .row {
     padding: 0px 0px 50px 0px;
