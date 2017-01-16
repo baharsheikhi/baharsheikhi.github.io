@@ -1,8 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
 
 .img-circle {
-    width: 270px;
-    height: 275px;
+    width: 350px;
+    height: 350px;
+}
+
+.mycamps {
+    width: 200px;
+    height: 200px;
+}
+
+.habit {
+     width: 650px;
+    height: 650px;
+}
+
+.music {
+    width: 600px;
+    height: 600px;
+}
+
+.log {
+    width: 300px;
+    height: 300px;
+}
+
+.pos {
+    width: 300px;
+    height: 300px;
 }
 
 footer {
