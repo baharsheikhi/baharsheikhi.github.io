@@ -34,20 +34,6 @@ footer {
     color: #ffffff;
 }
 
-
-.navbar {
-    float: left;
-    margin-right: 10px;
-}
-
-.navbar-nav li a:hover {
-    color: #ffffff !important;
-    float: left;
-    margin: 5px;
-    font-size: 50px;
-    
-}
-
 body {
     font-family: 'Pompiere', cursive;
 }
