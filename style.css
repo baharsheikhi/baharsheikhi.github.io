@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
 
 .img-circle {
-    width: 350px;
-    height: 350px;
+    width: 355px;
+    height: 355px;
+    padding-top: 40px;
 }
 
 .mycamps {
@@ -69,5 +70,10 @@ h1 {
 
 p {
     font-size: 30px;
+    padding-left: 5px;
+}
+p1 {
+    font-size: 25px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
