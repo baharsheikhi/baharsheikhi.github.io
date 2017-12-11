@@ -1,206 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!-- DOCTYPE HTML -->
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <!-- Optional theme -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arsenal|Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100|Kanit:100|Work+Sans:100|Yantramanav:100" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
-        body {
-            font-family: 'Pompiere', cursive;
-        }
-        
-        h1 {
-            font-size: 150px;
-        }
-        
-        p {
-            font-size: 25px;
-            font-family: 'Yantramanav', sans-serif;
-        }
-        
-        h2 {
-            font-size: 50px;
-        }
-        
-        h3 {
-            font-size: 70px;
-            font-family: 'Playfair Display', serif;
-        }
-        
-        h4 {
-            font-size: 70px;
-            font-family: 'Playfair Display', serif;
-        }
-        
-        .container-fluid {
-            padding-top: 80px;
-            padding-bottom: 130px;
-        }
-        
-        .container-fluid1 {
-            padding-top: 250px;
-            padding-bottom: 250px;
-        }
-        
-        .container-fluid3 {
-            padding-top: 100px;
-            padding-bottom: 250px;
-        }
-        
-        footer {
-            background-color: #6A6172;
-            padding: 25px;
-            padding: 25px;
-        }
-        
-        a {
-            font-family: 'Playfair Display', serif;
-            font-size: 17px;
-            background-color: #ffffff;
-        }
-        
-        li {
-            padding: 8px;
-            color: #ffffff;
-        }
-        
-        .navbar-default {
-            background-color: #ffffff;
-        }
-    </style>
+<title>Your First React Project</title>
 </head>
-
 <body>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid-nav">
-            <div class="navbar-header">
-            </div>
-            <ul class="nav navbar-nav">
-                <li><a id="menu" href="#home">Home</a></li>
-                <li><a id="menu" href="#about">About</a></li>
-                <li><a id="menu" href="#work">Development</a></li>
-                <li><a id="menu" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<div id="content"></div>
+<script src="https://fb.me/react-0.14.6.js"></script>
+<script src="https://fb.me/react-dom-0.14.6.js"></script>
+<script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
+<script type="text/jsx">
 
 
-    <div class="container-fluid1 bg-1 text-center" id="home">
-        <h1>BAHAR SHEIKHI</h1>
-        <h2>Software Engineer</h2>
-    </div>
-    
-
-    <div class="container-fluid3 bg-2 text-center" id="about">
-        <div class="row">
-
-            <div class="col-sm-5">
-                <img src="img/bahar.jpg" class="img-responsive img-circle" style="display:inline" alt="Bahar Sheikhi">
-            </div>
-
-            <div class="col-sm-7">
-                <h4>I make cool things</h4>
-                <p>Hi, I'm Bahar! I'm passionate for designing solutions for problems in order to create software. I am completing my second year at Northeastern University. I love Computer Science because it makes me want to pull my hair out, jump for joy, and cry tears of sleep deprivation....all at once.<br></p>
-                <p><strong>Fun fact: </strong>I won the creative writing senior award in high school and love to write poetry.<br></p>
-                <p>Check out some of my projects below!</p>
-            </div>
+	var App = React.createClass({
+		render : function() {
+			return(<div>Hello World</div>);
+	}
+	});
 
 
-        </div>
 
-    </div>
-
-    <div class="container-fluid bg-3 text-center" id="work">
-        <h3>MyCampus</h3>
-        <div class="row">
-            <div class="col-sm-3">
-                <img src="img/display.jpg" class="img-responsive mycamps" style="display:inline" alt="Opening">
-            </div>
-
-            <div class="col-sm-3">
-                <img src="img/home.jpg" class="img-responsive mycamps" style="display:inline" alt="Home page">
-            </div>
-
-            <div class="col-sm-3">
-                <img src="img/discover.jpg" class="img-responsive mycamps" style="display:inline" alt="Discover page">
-            </div>
-
-            <div class="col-sm-3">
-                <img src="img/search.jpg" class="img-responsive mycamps" style="display:inline" alt="Search page">
-            </div>
-        </div>
-        <div class="row">
-            <p class="text-left"> <strong>What is it? </strong>MyCampus is an iOS app for Northeastern students to view and RSVP to campus events. Going to a large school like Northeastern, me and 3 other classmates decided that we wanted to help out freshmen, sophomores, and transfer students who feel like they often miss out on campus-events. Before even touching code, we spent a few months sketching, researching, prototyping, and testing. We engaged in UX design via personas and scenarios. We ended up developing the front end of this design that we came up with. </p>
-            <p class="text-left"><strong>How is it made? </strong>I was a front-end developer for this project created the data models in Swift that were used throughout the interface. I created delegates for UITableView classes and added custon code for search functionality, categorizing events, and displaying RSVP'd events on the home screen.</p>
-        </div>
-        <button type="button" class="btn btn-default"><a href="https://github.com/corbettjo/MyCampus">Code</a></button>
-    </div>
-
-    <div class="container-fluid bg-3 text-center">
-        <h3>HabitTree</h3>
-        <div class="row">
-            <img src="img/gallery.jpg" class="img-responsive habit" style="display:inline" alt="Home page">
-        </div>
-        <div class="row">
-            <p class="text-left"><strong>What is it? </strong> HabitTree is a healthy habit website created for college students. Me and 3 other developers created it at the Fall 2016 WHACK (Wellesley College's Hackathon). College students need HabitTree because with the stress of academics and living on their own for the first time, health often becomes secondary. They create an account and can set their own goals--the name and duration of it--and HabitTree adds a leaf for every day they accomplish the goal.</p>
-            <p class="text-left"><strong>How is it made?</strong> Their account and health data gets stored in a database that I worked on designing and creating in PostGreSQL. The website is built on the Flask framework. I was one of two backend developers on the project. I worked on creating a library in Python to query the health data. After we were done buildilng backend, I worked with the front-end developers to make sure the front and back end were connected seamlessly; this was done by implementing get and post functionality. Even though it was my first time ever working in Python, learning the Flask framework, and working with databases, I learned a lot and am very proud of the work we did.</p>
-        </div>
-        <button type="button" class="btn btn-default"><a href="https://github.com/jaredsilver/whack-team-3">Code</a></button>
-    </div>
-
-    <div class="container-fluid bg-3 text-center">
-        <h3>Music Editor</h3>
-        <div class="row">
-            <img src="img/music.jpg" class="img-responsive music" style="display:inline" alt="Home page">
-        </div>
-        <div class="row">
-            <p class="text-left"><strong>What is it? </strong> This project is a music editor that plays music by parsing a file of notes. Its functionality includes the ability to add notes to a piece, remove notes from the piece, select pieces to implement repeats, and to pause the music.</p>
-            <p class="text-left"><strong>How is it made?</strong> The editor was built using the Model-View-Controller design pattern. Me and 1 other programmer developed the front and back end using Java--with Swing being the library used to create the GUI. It was also great practice to work with the data structures needed for the model: hashmaps. </p>
-        </div>
-        <button type="button" class="btn btn-default"><a href="https://github.com/sheikhi-shaalan/Edit-Your-Music">Code</a></button>
-    </div>
-
-
-    <footer class="container-fluid bg-4 text-center" id="contact">
-        <div class="links">
-            <div class="row">
-                <div class="col-sm-12 col-sm-offset-0">
-                    <a type="button" class="fa fa-file-text" target=" blank" href="BaharHaji-Sheikhi.pdf"></a>
-
-                    <a type="button" class="fa fa-linkedin-square" target=" blank" href="https://www.linkedin.com/in/baharhajisheikhi"></a>
-
-                    <a type="button" class="fa fa-envelope" target=" blank" href="mailto:haji-sheikhi.b@husky.neu.edu"></a>
-
-                    <a type="button" class="fa fa-github" target=" blank" href="https://github.com/baharsheikhi"></a>
-
-                </div>
-            </div>
-        </div>
-    </footer>
-
+ReactDOM.render(<App />, document.getElementById('content'));
+</script>
 </body>
-
 </html>

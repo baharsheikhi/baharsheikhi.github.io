@@ -1,0 +1,29 @@
+{
+  "name": "baharsheikhi.github.io",
+  "version": "1.0.0",
+  "description": "Bahar Sheikhi's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baharsheikhi/baharsheikhi.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "website"
+  ],
+  "author": "Bahar Sheikhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baharsheikhi/baharsheikhi.github.io/issues"
+  },
+  "homepage": "https://github.com/baharsheikhi/baharsheikhi.github.io#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
