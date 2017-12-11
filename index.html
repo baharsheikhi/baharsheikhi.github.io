@@ -10,14 +10,22 @@
 <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
 <script type="text/jsx">
 
+	var PROFILE = {
+		name: 'Bahar Sheikhi', 
+		imgURL: 'img/bahar.jpg'
+	}
 
 	var App = React.createClass({
 		render : function() {
 			return(<div>
-				<Profile />
-				<Hobbies />
+				<Profile 
+					name={this.props.profileData.name}
+					imgURL={this.props.profileData.imgURL}
+				/>
+
+				<Projects />
 			</div>);
-	}
+		}
 	});
 
 	var Profile = React.createClass({
@@ -25,8 +33,10 @@
 			return(
 				<div>
 					<h1>About Me</h1>
+					<h3>{this.props.name}</h3>
+					<img src={this.props.imgURL} />
 				</div>
-			)
+			);
 		}
 	}); 
 
@@ -36,13 +46,13 @@
 				<div> 
 					<h1>Projects</h1>
 				</div>
-			)
+			);
 		}
 	});
 
 
 
-ReactDOM.render(<App />, document.getElementById('content'));
+ReactDOM.render(<App profileData={DATA} />, document.getElementById('content'));
 </script>
 </body>
 </html>
