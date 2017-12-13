@@ -20,10 +20,10 @@
 		render : function() {
 			return(<div>
 				<Splash
-					imgURL={this.props.profileData.imgURL}
+					name={this.props.profileData.name}
 				/>
 				<Profile 
-					name={this.props.profileData.name}
+					imgURL={this.props.profileData.imgURL}
 				/>
 				<Projects />
 			</div>);
