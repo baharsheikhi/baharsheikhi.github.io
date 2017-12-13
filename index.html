@@ -19,9 +19,11 @@
 	var App = React.createClass({
 		render : function() {
 			return(<div>
+				<Splash
+					imgURL={this.props.profileData.imgURL}
+				/>
 				<Profile 
 					name={this.props.profileData.name}
-					imgURL={this.props.profileData.imgURL}
 				/>
 
 				<Projects />
@@ -29,13 +31,22 @@
 		}
 	});
 
+	var Splash = React.createClass ({
+		render : function() {
+			return (
+				<div>
+					<img class="img-circle" src={this.props.imgURL}/>	
+				</div>		
+			);
+		}
+	});
+
 	var Profile = React.createClass({
 		render : function() { 
 			return(
-				<div>
+				<div id="profile">
 					<h1>{this.props.name}</h1>
 					<h2>Software Engineer</h2>
-					<img class="img-circle" src={this.props.imgURL}/>
 				</div>
 			);
 		}
