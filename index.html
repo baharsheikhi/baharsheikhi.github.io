@@ -16,10 +16,6 @@
 <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
 <script type="text/jsx">
 
-	$(function(){
-    	$("p").text(data[0].What);
-	});
-
 	var PROFILE = {
 		name: 'BAHAR SHEIKHI', 
 		imgURL: 'img/bahar.jpg'
@@ -73,6 +69,11 @@
 
 	var Projects = React.createClass({
 		render : function() { 
+		
+			$(function(){
+    			$("p").text(data[0].What);
+			});
+
 			return (
 				<div id="projects"> 
 					<h1>Projects</h1>

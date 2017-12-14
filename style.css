@@ -83,7 +83,7 @@ footer {
     color: #ffffff;
 }
 
-body {
+h {
     font-family: 'Pompiere', cursive;
 }
 
@@ -92,12 +92,8 @@ h1 {
 }
 
 p {
-    font-size: 30px;
-    padding-left: 5px;
-}
-
-p1 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Yantramanav', sans-serif;
 }
+
 
