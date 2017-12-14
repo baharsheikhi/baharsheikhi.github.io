@@ -73,11 +73,11 @@
 			for(i = 0; i < data.length; i++) {
 				$(function(){
 					$("#projects").append("<h3 id=projectTitle+i></h3>");
-					$("projectTitle"+i).text(data[i].Title);
+					$(projectTitle+i).text(data[i].Title);
 					$("#projects").append("<p id=projectWhat+i></p>");
-					$("projectWhat"+i).text(data[i].What);
+					$(projectWhat+i).text(data[i].What);
 					$("#projects").append("<p id=projectHow+i></p>");
-					$("projectHow"+i).text(data[i].How);
+					$(projectHow+i).text(data[i].How);
 				});
 			}
 
