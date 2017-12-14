@@ -1,4 +1,4 @@
-data = [
+var data = [
 	{
 		"Title":"MyCampus",
 		"What":"MyCampus is an iOS app for Northeastern students to view and RSVP to campus events. Going to a large school like Northeastern, me and 3 other classmates decided that we wanted to help out freshmen, sophomores, and transfer students who feel like they often miss out on campus-events. Before even touching code, we spent a few months sketching, researching, prototyping, and testing. We engaged in UX design via personas and scenarios. We ended up developing the front end of this design that we came up with.",
@@ -27,4 +27,4 @@ data = [
 	{
 		"Hello!":"Hi, I'm Bahar! I'm passionate for designing solutions for problems in order to create software. I am completing my second year at Northeastern University. I love Computer Science because it makes me want to pull my hair out, jump for joy, and cry tears of sleep deprivation....all at once. Fun fact: I won the creative writing senior award in high school and love to write poetry. Check out some of my projects!"
 	}
-]
+];
