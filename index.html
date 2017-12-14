@@ -69,29 +69,16 @@
 
 	var Projects = React.createClass({
 		render : function() { 
-		
-			$(function(){
-    			$("p").text(data[0].What);
-			});
+			for(int i = 0; i < data.length; i++) {
+				$(function(){
+					$("#projects").append("<h3> data[i].Title </h3>");
+					$("#projects").append("<p> data[i].What </p>");
+					$("#projects").append("<p> data[i].How </p>");
+				});
+			}
 
 			return (
-				<div id="projects"> 
-					<h1>Projects</h1>
-					<h2>MyCampus</h2>
-						<p> data[0] </p>
-						<p> data[0].How </p>
-					<h2>Habit Tree</h2>
-						<p> data[1].What </p>
-						<p> data[1].How </p>
-					<h2>HackBeanpot</h2>
-						<p> data[2].What </p>
-						<p> data[2].How </p>
-					<h2>StandUp</h2>
-						<p> data[3].What </p>
-						<p> data[3].How </p>					
-					<h2>Music Editor</h2>
-						<p> data[4].What </p>
-						<p> data[4].How </p>					
+				<div id="projects"> 				
 				</div>
 			);
 		}

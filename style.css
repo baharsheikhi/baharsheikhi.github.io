@@ -16,11 +16,12 @@ div#about {
 
 div#projects {
 
-text-align: center;
+    text-align: center;
 }
 
 h2 {
     font-size: 2.5em;
+    font-family: 'Pompiere', cursive;
 }
 
 .img-circle {
@@ -83,12 +84,10 @@ footer {
     color: #ffffff;
 }
 
-h {
-    font-family: 'Pompiere', cursive;
-}
 
 h1 {
     font-size: 100px;
+    font-family: 'Pompiere', cursive;
 }
 
 p {
