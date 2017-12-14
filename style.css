@@ -8,6 +8,11 @@ text-align: center;
 
 }
 
+div#about { 
+    padding: 3em;
+    text-align: center;
+ }
+
 div#projects {
 
 text-align: center;
