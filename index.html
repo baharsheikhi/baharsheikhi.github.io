@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="aboutMe.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -71,9 +72,12 @@
 		render : function() { 
 			for(i = 0; i < data.length; i++) {
 				$(function(){
-					$("#projects").append("<h3> data[i].Title </h3>");
-					$("#projects").append("<p> data[i].What </p>");
-					$("#projects").append("<p> data[i].How </p>");
+					$("#projects").append("<h3 id="projectTitle"+i></h3>");
+					$("projectTitle"+i).text(data[i].Title);
+					$("#projects").append("<p id="projectWhat"+i></p>");
+					$("projectWhat"+i).text(data[i].What);
+					$("#projects").append("<p id="projectHow"+i></p>");
+					$("projectHow"+i).text(data[i].How);
 				});
 			}
 
