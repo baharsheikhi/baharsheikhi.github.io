@@ -9,7 +9,7 @@
 <script type="text/javascript" src="aboutMe.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora|Barlow" rel="stylesheet">
 </head>
 <body>
 <div id="content"></div>
@@ -76,13 +76,12 @@
 
 	var Projects = React.createClass({
 		render : function() { 
-			alert(data[1]);
 			for(i = 0; i < data.length; i++) {
 				$(function(){
 					var projectTitle = $("#projects").append("<h3></h3>");
-					projectTitle.innerHTML = data[i];
+					projectTitle.innerHTML = data[i].title;
 					var projectWhat = $("#projects").append("<p></p>");
-					projectWhat.innerHTML = data[i];
+					projectWhat.innerHTML = data[i].what;
 					var projectHow = $("#projects").append("<p></p>");
 					projectHow.innerHTML = "testy";
 
