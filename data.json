@@ -7,26 +7,26 @@ var data = [
 	},
 	{
 		"title":"HabitTree", 
-		"what":"habit tree what", 
-		"how":"habit tree how", 
+		"what":"HabitTree is a healthy habit website created for college students. Me and 3 other developers created it at the Fall 2016 WHACK (Wellesley College's Hackathon). College students need HabitTree because with the stress of academics and living on their own for the first time, health often becomes secondary. They create an account and can set their own goals--the name and duration of it--and HabitTree adds a leaf for every day they accomplish the goal.", 
+		"how":"Their account and health data gets stored in a database that I worked on designing and creating in PostGreSQL. The website is built on the Flask framework. I was one of two backend developers on the project. I worked on creating a library in Python to query the health data. After we were done buildilng backend, I worked with the front-end developers to make sure the front and back end were connected seamlessly; this was done by implementing get and post functionality. Even though it was my first time ever working in Python, learning the Flask framework, and working with databases, I learned a lot and am very proud of the work we did.", 
 		"link":"https://github.com/jaredsilver/whack-team-3"
 	},	
 	{
 		"title":"HackBeanpot Website", 
-		"what":"hackbeanpot website what", 
-		"how":"hakcbeanpot website how",
+		"what":"Coming soon!", 
+		"how":"Coming soon!",
 		"link":"https://github.com/HackBeanpot/www"
 	},	
 	{
 		"title":"Standup", 
-		"what":"standup what", 
-		"how":"standup how", 
+		"what":"Coming soon!", 
+		"how":"Coming soon!", 
 		"link":"https://github.com/baharsheikhi/StandUp"
 	},	 
 	{
 		"title":"Music Editor", 
-		"what":"music editor what ", 
-		"how":"music editor how", 
+		"what":"This project is a music editor that plays music by parsing a file of notes. Its functionality includes the ability to add notes to a piece, remove notes from the piece, select pieces to implement repeats, and to pause the music.", 
+		"how":"The editor was built using the Model-View-Controller design pattern. Me and 1 other programmer developed the front and back end using Java--with Swing being the library used to create the GUI. It was also great practice to work with the data structures needed for the model: hashmaps.", 
 		"link":"https://github.com/sheikhi-shaalan/Edit-Your-Music"
 	}
 ];
