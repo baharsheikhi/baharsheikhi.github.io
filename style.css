@@ -20,7 +20,7 @@ h1 {
 p {
     font-size: 1.4em;
     font-family: 'Barlow', sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 h3 { 
@@ -47,6 +47,8 @@ div#about {
     text-align: center;
     padding-top: 8em;
     padding-bottom: 12em;
+    padding-left: 3em;
+    padding-right: 3em;
  }
 
 
