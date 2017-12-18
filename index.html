@@ -17,7 +17,6 @@
 <script src="https://fb.me/react-dom-0.14.6.js"></script>
 <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
 <script type="text/jsx">
-	
 
 	var PROFILE = {
 		name: 'BAHAR SHEIKHI', 
@@ -81,13 +80,15 @@
 
 	var Projects = React.createClass({
 		var dataItems = data.map((data) => 
-			<h3>{data.title}</h3>
-			<p>{data.what}</p>
-			<p>{data.how}</p>
+			<div className="row project">
+				<h3>{data.title}</h3>
+				<p>{data.what}</p>
+				<p>{data.how}</p>
+			</div>
 		);		
 		render : function() { 
 			return (
-				<div id="projects" className="row"> 
+				<div id="projects"> 
 					{this.props.projects}				
 				</div>				
 			);		
