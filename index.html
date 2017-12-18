@@ -18,6 +18,10 @@
 <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
 <script type="text/jsx">
 
+	var dataItems = data.map((data) => 
+		<p>{data.title}</p>
+	);
+	
 
 	var PROFILE = {
 		name: 'BAHAR SHEIKHI', 
@@ -78,25 +82,10 @@
 	}); 
 
 	var Projects = React.createClass({	
-			
-		componentDidMount: function() { 
-				for(i = 0; i < data.length; i++) {
-				debugger;
-				var projectTitle = $("#projects").append("<h3></h3>");
-				projectTitle.innerHTML = data[i].title;
-				var projectWhat = $("#projects").append("<p></p>");
-				projectWhat.innerHTML = data[i].what;
-				var projectHow = $("#projects").append("<p></p>");
-				projectHow.innerHTML = "testy";
-
-			}
-		},
-		componentDidUpdate: function() { 
-			this.createProjects();
-		},
 		render : function() { 
 			return (
-				<div id="projects"> 				
+				<div id="projects"> 
+					{this.props.dataItems}				
 				</div>				
 			);		
 		}
@@ -104,7 +93,7 @@
 
 
 
-ReactDOM.render(<App profileData={PROFILE} />, document.getElementById('content'));
+ReactDOM.render(<App profileData={PROFILE,dataItems} />, document.getElementById('content'));
 </script>
 </body>
 </html>
