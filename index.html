@@ -58,8 +58,9 @@
 					As a third year at Northeastern University, I have completed my first co-op at Intuit in Mountain View California where I worked on Quickbooks Online's Payroll API. Fun fact: I won the creative writing award in high school and love writing poetry. Check out some of my projects below!
 				</p>
 				</div>
+				<div className="col-sm-6">
 				<div className="col-sm-3">
-					<h2> Experience </h2>
+					<h2 id="experience"> Experience </h2>
 					<h3 className="experience"> Intuit: Software Engineer </h3>
 					<h3 className="experience"> Personal Health Informatics Lab: Research Assistant </h3>
 					<h3 className="experience"> HackBeanpot: Organizer and Developer </h3>
@@ -69,6 +70,7 @@
 					<h3 className="duration"> March 2016 - July 2017 </h3>
 					<h3 className="duration"> April 2016 - Decemer 2017 </h3>
 				</div>
+				</div>
 			</div>
 			);
 		}
@@ -76,8 +78,8 @@
 
 	var Projects = React.createClass({
 		render : function() { 
-			for(i = 0; i < data.length; i++) {
-				$(function(){
+			$(function(){
+				for(i = 0; i < data.length; i++) {
 					debugger;
 					var projectTitle = $("#projects").append("<h3></h3>");
 					projectTitle.innerHTML = data[i].title;
@@ -86,8 +88,8 @@
 					var projectHow = $("#projects").append("<p></p>");
 					projectHow.innerHTML = "testy";
 
-				});
 			}
+		});
 
 			return (
 				<div id="projects"> 				
