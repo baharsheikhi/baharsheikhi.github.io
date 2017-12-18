@@ -37,7 +37,9 @@
 				<Profile 
 					imgURL={this.props.profileData.imgURL}
 				/>
-				<Projects />
+				<Projects 
+					projects={this.props.dataItems}
+				/>
 			</div>);
 		}
 	});
@@ -85,7 +87,7 @@
 		render : function() { 
 			return (
 				<div id="projects" className="row"> 
-					{this.props.dataItems}				
+					{this.props.projects}				
 				</div>				
 			);		
 		}
