@@ -17,10 +17,6 @@
 <script src="https://fb.me/react-dom-0.14.6.js"></script>
 <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
 <script type="text/jsx">
-
-	var dataItems = data.map((data) => 
-		<p>{data.title}</p>
-	);
 	
 
 	var PROFILE = {
@@ -38,7 +34,7 @@
 					imgURL={this.props.profileData.imgURL}
 				/>
 				<Projects 
-					projects={this.props.dataItems}
+					data={this.props.data}
 				/>
 			</div>);
 		}
@@ -83,7 +79,12 @@
 		}
 	}); 
 
-	var Projects = React.createClass({	
+	var Projects = React.createClass({
+		var dataItems = data.map((data) => 
+			<h3>{data.title}</h3>
+			<p>{data.what}</p>
+			<p>{data.how}</p>
+		);		
 		render : function() { 
 			return (
 				<div id="projects" className="row"> 
@@ -95,7 +96,7 @@
 
 
 
-ReactDOM.render(<App profileData={PROFILE,dataItems} />, document.getElementById('content'));
+ReactDOM.render(<App profileData={PROFILE,data} />, document.getElementById('content'));
 </script>
 </body>
 </html>
