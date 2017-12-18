@@ -77,9 +77,10 @@
 		}
 	}); 
 
-	var Projects = React.createClass({
-		function createProjects() {
-			for(i = 0; i < data.length; i++) {
+	var Projects = React.createClass({	
+			
+		componentDidMount: function() { 
+				for(i = 0; i < data.length; i++) {
 				debugger;
 				var projectTitle = $("#projects").append("<h3></h3>");
 				projectTitle.innerHTML = data[i].title;
@@ -89,10 +90,6 @@
 				projectHow.innerHTML = "testy";
 
 			}
-		}	
-			
-		componentDidMount: function() { 
-			this.createProjects();
 		},
 		componentDidUpdate: function() { 
 			this.createProjects();
