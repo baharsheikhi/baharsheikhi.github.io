@@ -78,15 +78,15 @@
 		}
 	}); 
 
-	var Projects = React.createClass({
-		var dataItems = data.map((data) => 
-			<div className="row project">
-				<h3>{data.title}</h3>
-				<p>{data.what}</p>
-				<p>{data.how}</p>
-			</div>
-		);		
+	var Projects = React.createClass({	
 		render : function() { 
+			var dataItems = data.map((data) => 
+				<div className="row project">
+					<h3>{data.title}</h3>
+					<p>{data.what}</p>
+					<p>{data.how}</p>
+				</div>
+			);			
 			return (
 				<div id="projects"> 
 					{this.props.projects}				
