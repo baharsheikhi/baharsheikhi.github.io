@@ -8,13 +8,13 @@ text-align: center;
 
 }
 
-div.duration { 
+.duration { 
     padding-top: 2.5em;
     text-align: right;
 
  }
 
- div.experience { 
+.experience { 
     padding-left: 2em;
     text-align: left;
   }
