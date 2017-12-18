@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
+@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere|Lora');
 
 
 div#splash { 
@@ -32,9 +32,15 @@ div#projects {
     text-align: center;
 }
 
-h2 {
+h2#title { 
     font-size: 2.5em;
     font-family: 'Pompiere', cursive;
+
+ }
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Lora', serif;
 }
 
 .img-circle {

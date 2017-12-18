@@ -41,7 +41,7 @@
 			return (	
 				<div className="bg-1" id="splash">
 					<h1>{this.props.name}</h1>
-					<h2>Software Engineer</h2>
+					<h2 id="title">Software Engineer</h2>
 				</div>					
 			);
 		}
@@ -75,7 +75,7 @@
 
 	var Projects = React.createClass({
 		render : function() { 
-			alert(data.length);
+			alert(data[1]);
 			for(i = 0; i < data.length; i++) {
 				$(function(){
 					var projectTitle = $("#projects").append("<h3></h3>");
