@@ -8,6 +8,17 @@ text-align: center;
 
 }
 
+div#duration { 
+    padding-top: 2.5em;
+    text-align: right;
+
+ }
+
+ div#experience { 
+    padding-left: 2em;
+    text-align: left;
+  }
+
 div#about { 
     padding: 3em;
     text-align: center;
