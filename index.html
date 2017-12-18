@@ -61,17 +61,10 @@
 				</p>
 				</div>
 				<div className="col-sm-6">
-				<div className="col-sm-3">
 					<h2 id="experience"> Experience </h2>
-					<h3 className="experience"> Intuit: Software Engineer </h3>
-					<h3 className="experience"> Personal Health Informatics Lab: Research Assistant </h3>
-					<h3 className="experience"> HackBeanpot: Organizer and Developer </h3>
-				</div>
-				<div className="col-sm-3">
-					<h3 className="duration"> July - Decemer 2016 </h3>
-					<h3 className="duration"> March 2016 - July 2017 </h3>
-					<h3 className="duration"> April 2016 - Decemer 2017 </h3>
-				</div>
+					<h3 className="experience"> Intuit: Software Engineer ~ July - Decemer 2016</h3>
+					<h3 className="experience"> Personal Health Informatics Lab: Research Assistant ~ March 2016 - July 2017 </h3>
+					<h3 className="experience"> HackBeanpot: Organizer and Developer ~ April 2016 - Decemer 2017</h3>
 				</div>
 			</div>
 			);
@@ -82,7 +75,7 @@
 		render : function() { 
 			var dataItems = data.map((data) => 
 				<div className="row project">
-					<h3>{data.title}</h3>
+					<h2>{data.title}</h2>
 					<p>{data.what}</p>
 					<p>{data.how}</p>
 				</div>

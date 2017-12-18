@@ -8,29 +8,17 @@ text-align: center;
 
 }
 
-.duration { 
-    padding-top: 2.5em;
-    text-align: right;
-
- }
 
 .experience { 
-    padding-left: 2em;
-    text-align: left;
+    text-align: center;
   }
 
 div#about { 
     padding: 3em;
     text-align: center;
-    font-family: 'Helvetica Neue', 'sans-serif';
  }
 
 
-
-div#projects {
-
-    text-align: center;
-}
 
 h2#title { 
     font-size: 2.5em;
@@ -39,6 +27,7 @@ h2#title {
  }
 
 h2 {
+    text-align: center;
     font-size: 2.5em;
     font-family: 'Lora', serif;
 }
