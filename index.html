@@ -18,6 +18,21 @@
 <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
 <script type="text/jsx">
 
+	function createProjects() {
+		$(function(){
+			for(i = 0; i < data.length; i++) {
+				debugger;
+				var projectTitle = $("#projects").append("<h3></h3>");
+				projectTitle.innerHTML = data[i].title;
+				var projectWhat = $("#projects").append("<p></p>");
+				projectWhat.innerHTML = data[i].what;
+				var projectHow = $("#projects").append("<p></p>");
+				projectHow.innerHTML = "testy";
+
+				}	
+			});	
+	}
+
 	var PROFILE = {
 		name: 'BAHAR SHEIKHI', 
 		imgURL: 'img/bahar.jpg'
@@ -77,22 +92,16 @@
 	}); 
 
 	var Projects = React.createClass({
+		componentDidMount: function() { 
+			this.createProjects();
+		}
+		componentDidUpdate: function() { 
+			this.createProjects();
+		}
 		render : function() { 
 			return (
 				<div id="projects"> 				
-				</div>
-			$(function(){
-				for(i = 0; i < data.length; i++) {
-					debugger;
-					var projectTitle = $("#projects").append("<h3></h3>");
-					projectTitle.innerHTML = data[i].title;
-					var projectWhat = $("#projects").append("<p></p>");
-					projectWhat.innerHTML = data[i].what;
-					var projectHow = $("#projects").append("<p></p>");
-					projectHow.innerHTML = "testy";
-
-					}	
-				});					
+				</div>				
 			);		
 		}
 	});
