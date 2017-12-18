@@ -77,15 +77,13 @@
 		render : function() { 
 			for(i = 0; i < data.length; i++) {
 				$(function(){
-					var projectTitle="projectTitle"+i;
-					var projectWhat="projectWhat"+i;
-					var projectHow="projectHow"+i;
-					$("#projects").append("<h3 id=projectTitle></h3>");
-					$(projectTitle).text(data[i].Title);
-					$("#projects").append("<p id=projectWhat></p>");
-					$(projectWhat).text(data[i].What);
-					$("#projects").append("<p id=projectHow></p>");
-					$(projectHow).text(data[i].How);
+					var projectTitle = ("#projects").append("<h3></h3>");
+					projectTitle.innerHTML = data[i].Title;
+					var projectWhat = ("#projects").append("<p></p>");
+					projectWhat.innerHTML = data[i].What;
+					var projectHow = ("#projects").append("<p></p>");
+					projectHow.innerHTML = "testy";
+
 				});
 			}
 
