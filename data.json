@@ -1,27 +1,32 @@
 var data = [
 	{
 		"title":"MyCampus",
-		"what":"&nbsp;MyCampus is an iOS app for Northeastern students to view and RSVP to campus events. Going to a large school like Northeastern, me and 3 other classmates decided that we wanted to help out freshmen, sophomores, and transfer students who feel like they often miss out on campus-events. Before even touching code, we spent a few months sketching, researching, prototyping, and testing. We engaged in UX design via personas and scenarios. We ended up developing the front end of this design that we came up with.",
-		"how":"&nbsp;I was a front-end developer for this project created the data models in Swift that were used throughout the interface. I created delegates for UITableView classes and added custon code for search functionality, categorizing events, and displaying RSVP'd events on the home screen."
+		"what":"MyCampus is an iOS app for Northeastern students to view and RSVP to campus events. Going to a large school like Northeastern, me and 3 other classmates decided that we wanted to help out freshmen, sophomores, and transfer students who feel like they often miss out on campus-events. Before even touching code, we spent a few months sketching, researching, prototyping, and testing. We engaged in UX design via personas and scenarios. We ended up developing the front end of this design that we came up with.",
+		"how":"I was a front-end developer for this project created the data models in Swift that were used throughout the interface. I created delegates for UITableView classes and added custon code for search functionality, categorizing events, and displaying RSVP'd events on the home screen.",
+		"link":"https://github.com/jocoio/MyCampus"
 	},
 	{
 		"title":"HabitTree", 
-		"what":"&nbsp;habit tree what", 
-		"how":"&nbsp;habit tree how"
+		"what":"habit tree what", 
+		"how":"habit tree how", 
+		"link":"https://github.com/jaredsilver/whack-team-3"
 	},	
 	{
 		"title":"HackBeanpot Website", 
-		"what":"&nbsp;hackbeanpot website what", 
-		"how":"&nbsp;hakcbeanpot website how"
+		"what":"hackbeanpot website what", 
+		"how":"hakcbeanpot website how",
+		"link":"https://github.com/HackBeanpot/www"
 	},	
 	{
 		"title":"Standup", 
-		"what":"&nbsp;standup what", 
-		"how":"&nbsp;standup how"
+		"what":"standup what", 
+		"how":"standup how", 
+		"link":"https://github.com/baharsheikhi/StandUp"
 	},	 
 	{
 		"title":"Music Editor", 
-		"what":"&nbsp;music editor what ", 
-		"how":"&nbsp;music editor how"
+		"what":"music editor what ", 
+		"how":"music editor how", 
+		"link":"https://github.com/sheikhi-shaalan/Edit-Your-Music"
 	}
 ];

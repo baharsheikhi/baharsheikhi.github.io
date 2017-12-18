@@ -28,13 +28,12 @@ text-align: center;
     padding: 2em;
  }
 
-.experience { 
-    text-align: center;
-}
 
 div#about { 
-    padding: 3em;
+    padding-left,padding-right: 3em;
     text-align: center;
+    padding-top: 8em;
+    padding-bottom: 12em;
  }
 
 

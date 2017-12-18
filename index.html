@@ -74,10 +74,10 @@
 	var Projects = React.createClass({	
 		render : function() { 
 			var dataItems = data.map((data) => 
-				<div className="row project">
-					<h2>{data.title}</h2>
-					<p>{data.what}</p>
-					<p>{data.how}</p>
+				<div className="row project bg-3">
+					<h2><a href={data.link}>{data.title}</a></h2>
+					<p>&nbsp;{data.what}</p>
+					<p>&nbsp;{data.how}</p>
 				</div>
 			);			
 			return (
