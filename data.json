@@ -1,27 +1,27 @@
 var data = [
 	{
 		"title":"MyCampus",
-		"what":"MyCampus is an iOS app for Northeastern students to view and RSVP to campus events. Going to a large school like Northeastern, me and 3 other classmates decided that we wanted to help out freshmen, sophomores, and transfer students who feel like they often miss out on campus-events. Before even touching code, we spent a few months sketching, researching, prototyping, and testing. We engaged in UX design via personas and scenarios. We ended up developing the front end of this design that we came up with.",
-		"how":"I was a front-end developer for this project created the data models in Swift that were used throughout the interface. I created delegates for UITableView classes and added custon code for search functionality, categorizing events, and displaying RSVP'd events on the home screen."
+		"what":"&nbsp;MyCampus is an iOS app for Northeastern students to view and RSVP to campus events. Going to a large school like Northeastern, me and 3 other classmates decided that we wanted to help out freshmen, sophomores, and transfer students who feel like they often miss out on campus-events. Before even touching code, we spent a few months sketching, researching, prototyping, and testing. We engaged in UX design via personas and scenarios. We ended up developing the front end of this design that we came up with.",
+		"how":"&nbsp;I was a front-end developer for this project created the data models in Swift that were used throughout the interface. I created delegates for UITableView classes and added custon code for search functionality, categorizing events, and displaying RSVP'd events on the home screen."
 	},
 	{
 		"title":"HabitTree", 
-		"what":"habit tree what", 
-		"how":"habit tree how"
+		"what":"&nbsp;habit tree what", 
+		"how":"&nbsp;habit tree how"
 	},	
 	{
 		"title":"HackBeanpot Website", 
-		"what":"hackbeanpot website what", 
-		"how":"hakcbeanpot website how"
+		"what":"&nbsp;hackbeanpot website what", 
+		"how":"&nbsp;hakcbeanpot website how"
 	},	
 	{
 		"title":"Standup", 
-		"what":"standup what", 
-		"how":"standup how"
+		"what":"&nbsp;standup what", 
+		"how":"&nbsp;standup how"
 	},	 
 	{
 		"title":"Music Editor", 
-		"what":"music editor what ", 
-		"how":"music editor how"
+		"what":"&nbsp;music editor what ", 
+		"how":"&nbsp;music editor how"
 	}
 ];

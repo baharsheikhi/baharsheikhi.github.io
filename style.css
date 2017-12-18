@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
 
+h1 {
+    font-size: 100px;
+    font-family: 'Pompiere', cursive;
+}
+
+p {
+    font-size: 1.4em;
+    font-family: 'Barlow', sans-serif;
+    text-align: left;
+}
+
+h3 { 
+    font-size: 1.5em;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+ } 
 
 div#splash { 
 
@@ -8,10 +24,13 @@ text-align: center;
 
 }
 
+.project { 
+    padding: 2em;
+ }
 
 .experience { 
     text-align: center;
-  }
+}
 
 div#about { 
     padding: 3em;
@@ -30,46 +49,6 @@ h2 {
     text-align: center;
     font-size: 2.5em;
     font-family: 'Lora', serif;
-}
-
-.img-circle {
-    width: 355px;
-    height: 355px;
-    padding-top: 40px;
-}
-
-.mycamps {
-    width: 200px;
-    height: 200px;
-}
-
-.habit {
-     width: 650px;
-    height: 650px;
-}
-
-.music {
-    width: 600px;
-    height: 600px;
-}
-
-.log {
-    width: 300px;
-    height: 300px;
-}
-
-.pos {
-    width: 300px;
-    height: 300px;
-}
-
-footer {
-    background-color: #6A6172;
-    padding: 25px;
-}
-
-.row {
-    padding: 0px 0px 50px 0px;
 }
 
 .bg-1 {
@@ -93,19 +72,5 @@ footer {
 }
 
 
-h1 {
-    font-size: 100px;
-    font-family: 'Pompiere', cursive;
-}
-
-p {
-    font-size: 1.4em;
-    font-family: 'Barlow', sans-serif;
-}
-
-h3 { 
-    font-size: 1.5em;
-    font-family: 'Barlow', sans-serif
- }
 
 
