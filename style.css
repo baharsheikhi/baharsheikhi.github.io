@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
 
+.glyphicon { 
+    padding-left: 24.5em;
+    font-size: 1.4em;
+ }
+
 h1 {
     font-size: 100px;
     font-family: 'Pompiere', cursive;
@@ -19,7 +24,7 @@ h3 {
 
 div#splash { 
 
-padding: 11.5em;
+padding: 18em;
 text-align: center;
 padding-bottom: 13em;
 
