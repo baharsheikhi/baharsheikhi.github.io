@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere|Lora');
+@import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
 
 
 div#splash { 
@@ -8,13 +8,13 @@ text-align: center;
 
 }
 
-div#duration { 
+div.duration { 
     padding-top: 2.5em;
     text-align: right;
 
  }
 
- div#experience { 
+ div.experience { 
     padding-left: 2em;
     text-align: left;
   }
