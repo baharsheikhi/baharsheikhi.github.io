@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Amatica+SC|Bentham|Bubbler+One|Carrois+Gothic+SC|Cormorant|Cormorant+Infant|Fredericka+the+Great|Katibeh|Megrim|Pompiere');
 
-.glyphicon { 
+span { 
     padding-left: 24.5em;
     font-size: 1.4em;
  }
+
+.projText { 
+
+    text-align: left;
+    padding: 2em;
+
+ } 
 
 h1 {
     font-size: 100px;
@@ -41,7 +48,6 @@ div#about {
     padding-top: 8em;
     padding-bottom: 12em;
  }
-
 
 
 h2#title { 
