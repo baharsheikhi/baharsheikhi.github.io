@@ -1,23 +1,25 @@
 <!-- DOCTYPE HTML -->
+<html lang="en">
 <html>
 <head>
-<meta charset="utf-8">
-<title>Bahar Sheikhi</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="data.json"></script>
-<script type="text/javascript" src="aboutMe.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Lora|Barlow" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bahar Sheikhi</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="data.json"></script>
+	<script type="text/javascript" src="aboutMe.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Barlow:200,300,400" rel="stylesheet">
 </head>
 <body>
-<div id="content"></div>
-<script src="https://fb.me/react-0.14.6.js"></script>
-<script src="https://fb.me/react-dom-0.14.6.js"></script>
-<script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
-<script type="text/jsx">
+	<div id="content"></div>
+	<script src="https://fb.me/react-0.14.6.js"></script>
+	<script src="https://fb.me/react-dom-0.14.6.js"></script>
+	<script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
+	<script type="text/jsx">
 
 	var PROFILE = {
 		name: 'BAHAR SHEIKHI', 
@@ -56,16 +58,19 @@
 			return(
 			<div className="row bg-2" id="about">
 				<div className="col-sm-6">
-					<h2> Hello &#127881; </h2>
+					<h2> Hello 🎉 </h2>
 					<p id="desc"> I'm Bahar. I'm passionate about developing technical solutions that thrill users. Designing elegant software that tackles challenging problems is what I do. I love Computer Science because it makes me want to pull my hair out, jump for joy, and cry tears of sleep deprivation....all at once. <br/> 
-					&nbsp; As a third year at Northeastern University, I have completed my first co-op at Intuit in Mountain View California where I worked on Quickbooks Online's Payroll API. Fun fact: I won the creative writing award in high school and love writing poetry. Check out some of my projects below!
+					&nbsp; As a third year at Northeastern University, I have completed my first co-op at Intuit in Mountain View California where I worked on Quickbooks Online's Payroll API.<br/> <b>Fun fact:</b> I won the creative writing award in high school and love writing poetry. Check out some of my projects below!
 				</p>
 				</div>
 				<div className="col-sm-6">
 					<h2 id="experience"> Experience </h2>
-					<h3 className="experience"> Intuit: Software Engineer ~ July - Decemer 2016</h3>
-					<h3 className="experience"> Personal Health Informatics Lab: Research Assistant ~ March 2016 - July 2017 </h3>
-					<h3 className="experience"> HackBeanpot: Organizer and Developer ~ April 2016 - Decemer 2017</h3>
+					<h3 className="experience"> <b>Intuit</b>: Software Engineer</h3>
+					<p className="experience" id="duration">July - Decemer 2016</p>
+					<h3 className="experience"> <b>Personal Health Informatics Lab</b>: Research Assistant</h3>
+					<p className="experience" id="duration">March 2016 - July 2017</p> 
+					<h3 className="experience"><b>HackBeanpot</b>: Organizer and Developer</h3>
+					<p className="experience" id="duration">April 2016 - Decemer 2017</p> 
 				</div>
 			</div>
 			);
@@ -77,7 +82,9 @@
 			var dataItems = data.map((data) => 
 				<div className="row project bg-3">
 					<h2>{data.title}</h2>
-					<span className="glyphicon glyphicon-link"><a href={data.link}></a></span>
+					<div id="link"><a href={data.link}>
+					<span className="glyphicon glyphicon-link"></span></a>
+					</div>
 					<p className="projText">&nbsp; {data.what} <br/> &nbsp; {data.how} </p>
 				</div>
 			);			
