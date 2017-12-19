@@ -4,11 +4,12 @@
     font-size: 1.4em;
  }
 
- .experience {
-    h2 { 
-        padding-bottom: 10em;
-     }
+#profile { 
 
+    padding-bottom: 3em;
+ }
+
+ .experience {
     padding-bottom: : 0.5em;
     text-align: center;
   }
@@ -62,6 +63,9 @@ h3 {
  #desc { 
 
     font-weight: 300;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
   } 
 
 div#splash { 
@@ -74,7 +78,6 @@ padding-bottom: 19em;
 
 
 div#about { 
-    padding-bottom: 17em;
     padding-left: 3em;
     padding-right: 3em;
  }
@@ -86,21 +89,27 @@ h2#title {
 
  }
 
+ h2#nav { 
+    font-size: 1.5em;
+    font-family: 'Lora', serif;
+    padding-top: 0em;
+  }
+
 h2 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-family: 'Lora', serif;
     padding-top: 2em;
 
 }
 
 .bg-1 {
-    background-color: #68B0AB;
+    background-color: #58a7a2;
     color: #ffffff;
 }
 
 .bg-2 {
-    background-color: #6A6172;
+    background-color: #666666;
     color: #ffffff;
 }
 
@@ -113,6 +122,16 @@ h2 {
     background-color: #2f2f2f;
     color: #ffffff;
 }
+
+#footer { 
+    padding: 3em;
+    text-align: center;
+
+ }
+
+ #icon2 { 
+    text-align: right;
+  }
 
 
 

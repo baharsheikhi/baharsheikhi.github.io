@@ -7,12 +7,13 @@
 	<title>Bahar Sheikhi</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="data.json"></script>
 	<script type="text/javascript" src="aboutMe.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lora|Barlow:200,300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Barlow:200,300,400|Open+Sans:300,400,600|Roboto|Source+Serif+Pro" rel="stylesheet">
 </head>
 <body>
 	<div id="content"></div>
@@ -38,6 +39,8 @@
 				<Projects 
 					data={this.props.data}
 				/>
+				<Footer
+				/>
 			</div>);
 		}
 	});
@@ -48,6 +51,7 @@
 				<div className="bg-1" id="splash">
 					<h1>{this.props.name}</h1>
 					<h2 id="title">Software Engineer</h2>
+					<h2 id="nav"> <a href="#about">About</a> • <a href="#projects">Projects</a></h2>
 				</div>					
 			);
 		}
@@ -56,14 +60,16 @@
 	var Profile = React.createClass({
 		render : function() { 
 			return(
-			<div className="row bg-2" id="about">
-				<div className="col-sm-6">
-					<h2> Hello 🎉 </h2>
-					<p id="desc"> I'm Bahar. I'm passionate about developing technical solutions that thrill users. Designing elegant software that tackles challenging problems is what I do. I love Computer Science because it makes me want to pull my hair out, jump for joy, and cry tears of sleep deprivation....all at once. <br/> 
-					&nbsp; As a third year at Northeastern University, I have completed my first co-op at Intuit in Mountain View California where I worked on Quickbooks Online's Payroll API.<br/> <b>Fun fact:</b> I won the creative writing award in high school and love writing poetry. Check out some of my projects below!
+			<div id="profile" className="bg-2">
+			<div className="row" id="about">
+				<div className="col-sm-12">
+					<h2> Hello 👩‍💻 </h2>
+					<p id="desc"> I'm Bahar. I'm passionate about developing technical solutions that thrill users. Designing elegant software that tackles challenging problems is what I do. I love Computer Science because it makes me want to pull my hair out, jump for joy, and cry tears of sleep deprivation....all at once. As a third year at Northeastern University, I have completed my first co-op at Intuit in Mountain View California where I worked on Quickbooks Online's Payroll API.<br/> <b> &nbsp; Fun fact:</b> I won the creative writing award in high school and love writing poetry. Check out some of my projects below!
 				</p>
 				</div>
-				<div className="col-sm-6">
+			</div>
+			<div className="row" id="about">
+				<div className="col-sm-12">
 					<h2 id="experience"> Experience </h2>
 					<h3 className="experience"> <b>Intuit</b>: Software Engineer</h3>
 					<p className="experience" id="duration">July - Decemer 2016</p>
@@ -73,6 +79,7 @@
 					<p className="experience" id="duration">April 2016 - Decemer 2017</p> 
 				</div>
 			</div>
+		</div>
 			);
 		}
 	}); 
@@ -93,6 +100,25 @@
 					{dataItems}				
 				</div>				
 			);		
+		}
+	});
+
+	var Footer = React.createClass({
+		render: function() { 
+			return (
+				<div className="row bg-2" id="footer">
+                <div class="col-sm-12 col-sm-offset-0">
+                    <a type="button" className="fa fa-file-text fa-3x" target=" blank" href="BaharHaji-Sheikhi.pdf">&nbsp; &nbsp;</a>
+
+                    <a type="button" className="fa fa-linkedin-square fa-3x" target=" blank" href="https://www.linkedin.com/in/baharhajisheikhi">&nbsp; &nbsp;</a>
+
+                    <a type="button" className="fa fa-envelope fa-3x" target=" blank" href="mailto:haji-sheikhi.b@husky.neu.edu"></a>
+
+                    <a type="button" class="fa fa-github fa-lg" target=" blank" href="https://github.com/baharsheikhi"></a>
+
+                </div>
+				</div>
+			);
 		}
 	});
 
