@@ -63,9 +63,9 @@ h3 {
  #desc { 
 
     font-weight: 300;
-    text-align: center;
-    padding-left: 10em;
-    padding-right: 10em;
+    text-align: left;
+    padding-left: 8em;
+    padding-right: 8em;
   } 
 
 div#splash { 
@@ -80,6 +80,7 @@ padding-bottom: 19em;
 div#about { 
     padding-left: 3em;
     padding-right: 3em;
+    padding-bottom: 3em;
  }
 
 
@@ -100,6 +101,7 @@ h2 {
     font-size: 3.5em;
     font-family: 'Lora', serif;
     padding-top: 2em;
+    padding-bottom: 0.25em;
 
 }
 
@@ -129,9 +131,6 @@ h2 {
 
  }
 
- #icon2 { 
-    text-align: right;
-  }
 
 
 

@@ -8,19 +8,19 @@ var data = [
 	{
 		"title":"HabitTree", 
 		"what":"HabitTree is a healthy habit website created for college students. Me and 3 other developers created it at the Fall 2016 WHACK (Wellesley College's Hackathon). College students need HabitTree because with the stress of academics and living on their own for the first time, health often becomes secondary. They create an account and can set their own goals--the name and duration of it--and HabitTree adds a leaf for every day they accomplish the goal.", 
-		"how":"Their account and health data gets stored in a database that I worked on designing and creating in PostGreSQL. The website is built on the Flask framework. I was one of two backend developers on the project. I worked on creating a library in Python to query the health data. After we were done buildilng backend, I worked with the front-end developers to make sure the front and back end were connected seamlessly; this was done by implementing get and post functionality. Even though it was my first time ever working in Python, learning the Flask framework, and working with databases, I learned a lot and am very proud of the work we did.", 
+		"how":"Their account and health data gets stored in a database that I worked on designing and creating in PostgreSQL. The website is built on the Flask framework. I was one of two backend developers on the project. I worked on creating a library in Python to query the health data. After we were done buildilng backend, I worked with the front-end developers to make sure the front and back end were connected seamlessly; this was done by implementing get and post functionality. Even though it was my first time ever working in Python, learning the Flask framework, and working with databases, I learned a lot and am very proud of the work we did.", 
 		"link":"https://github.com/jaredsilver/whack-team-3"
 	},	
 	{
 		"title":"HackBeanpot Website", 
 		"what":"HackBeanpot is a Boston-based nonprofit organization that throws an annual hackathon geared at all levels of hackers. We have a website in order to display basic information about the event, link users to social media, projects, tickets, and provide FAQ information. I worked on developing this website with 2 other teammates!", 
-		"how":"We used jade, sass, boostrap, and javascript in order to get the look, feel, and functionality we desired. I worked on developing the drop-down FAQ section, which required boostrap, javascript, and jade to create.",
+		"how":"We used Jade, Sass, Boostrap, and JavaScript in order to get the look, feel, and functionality we desired. I worked on developing the drop-down FAQ section, which required boostrap, javascript, and jade to create.",
 		"link":"https://github.com/HackBeanpot/www"
 	},	
 	{
 		"title":"Standup", 
 		"what":"Standup is an android mobile application to encourage peers in participating in activism. It is divided into three sections: Speak Up! Show Up! and Read Up!, which correspond to a section where users share their thoughts, a section that demonstrates activism events, and one where users can learn about current events, respectively. This app was developed at Wellesley College's Spring 2017 Hackathon.", 
-		"how":"The front-end of this application is in Java, using the News API to display current-event information, and the Facebook API to show the activism event information. I worked with 2 other front-end mobile developers to connect the UI to the API's we used. I created asynchronous calls to the server using OAUTH keys and retrieved JSON data. I created a library for parsing our JSON data and passing it to the UI elements. This application was super fun to work on and taught me a lot about the delicacies of asynchronous mobile server calls", 
+		"how":"The front-end of this application is in Java--using the News API to display current-event information and the Facebook API to show the activism event information. I worked with 2 other front-end mobile developers to connect the UI to the API's we used. I created asynchronous calls to the server using OAUTH keys and retrieved JSON data. I created a library for parsing our JSON data and passing it to the UI elements. This application was super fun to work on and taught me a lot about the delicacies of asynchronous mobile server calls.", 
 		"link":"https://github.com/baharsheikhi/StandUp"
 	},	 
 	{
